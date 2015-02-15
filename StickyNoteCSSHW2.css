@@ -1,0 +1,73 @@
+/* Inspired by http://www.paulund.co.uk/create-sticky-notes-to-do-list-in-css-and-jquery */
+
+body{background:#4f4f4f;color:#888;padding:0;margin:0;font: 72.5% 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+.clear { clear:both; }
+
+/*Headers*/
+h1{	font-size:20px;	color:black;	font-family:'Myriad pro', Corbel, Arial, Helvetica, sans-serif;	letter-spacing:1px;}
+h1 a{color:#FFF;}
+h2 { color:#ebebeb;font-size:35px;font-family:'Myriad pro', Corbel, Arial, Helvetica, sans-serif;letter-spacing:-2px;}
+
+/*Container*/
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+.subhead {
+    background-color:#CACACA;
+    color:black;
+    text-align:center;
+    padding:5px;
+}
+.container{
+	width:85%;
+	margin:30px auto;
+	background:#ebebeb;
+	text-align: center; 
+	padding:25px;
+	border:1px solid #a1a1a1;
+	min-height:400px;
+	height:auto;	
+}
+.nav {
+   text-align:center;
+   display: inline;
+}
+ul.sticky_notes{ list-style:none; }
+ul.sticky_notes li{
+	width:250px;
+	height:200px;
+	padding:20px;
+	margin:20px;
+	border:4px solid #5d478b;
+	float:left;
+}
+ul.sticky_notes p{
+	font-size:16px;
+	color:#5d478b;
+}
+
+.yellow{background:#ffc;}
+.green{	background:#cfc;}
+.blue { background:#ccf;}
+.purple{background:#eaafe3}
+
+
+.newTasks{
+	padding:3px;
+	border:1px solid #888;	
+	-moz-border-radius:3px;  
+  	-webkit-border-radius: 3px;  
+  	border-radius:3px;
+}
+.footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+}
+.newTasks input[type=text] { width:300px; padding:3px };
+.deleteButton { cursor:pointer; }
